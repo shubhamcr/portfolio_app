@@ -3360,7 +3360,7 @@ tbody.collapse.in {
 	margin-bottom: 2px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-right .dropdown-menu {
 		right: 0;
 		left: auto
@@ -3880,7 +3880,7 @@ tbody.collapse.in {
 	left: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.nav-justified>li,
 	.nav-tabs.nav-justified>li {
 		display: table-cell;
@@ -3912,7 +3912,7 @@ tbody.collapse.in {
 	border: 1px solid #ddd
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.nav-tabs-justified>li>a,
 	.nav-tabs.nav-justified>li>a {
 		border-bottom: 1px solid #ddd;
@@ -3959,12 +3959,6 @@ tbody.collapse.in {
 	clear: both
 }
 
-@media (min-width:768px) {
-	.navbar {
-		border-radius: 4px
-	}
-}
-
 .navbar-header:after,
 .navbar-header:before {
 	content: " ";
@@ -3975,7 +3969,7 @@ tbody.collapse.in {
 	clear: both
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-header {
 		float: left
 	}
@@ -4004,7 +3998,7 @@ tbody.collapse.in {
 	overflow-y: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-collapse {
 		width: auto;
 		border-top: 0;
@@ -4032,7 +4026,7 @@ tbody.collapse.in {
 	max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-device-width:1200px) and (orientation:landscape) {
 	.navbar-fixed-bottom .navbar-collapse,
 	.navbar-fixed-top .navbar-collapse {
 		max-height: 200px
@@ -4047,7 +4041,7 @@ tbody.collapse.in {
 	margin-left: -15px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.container-fluid>.navbar-collapse,
 	.container-fluid>.navbar-header,
 	.container>.navbar-collapse,
@@ -4062,7 +4056,7 @@ tbody.collapse.in {
 	border-width: 0 0 1px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-static-top {
 		border-radius: 0
 	}
@@ -4076,7 +4070,7 @@ tbody.collapse.in {
 	z-index: 1030
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-fixed-bottom,
 	.navbar-fixed-top {
 		border-radius: 0
@@ -4111,7 +4105,7 @@ tbody.collapse.in {
 	display: block
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar>.container-fluid .navbar-brand,
 	.navbar>.container .navbar-brand {
 		margin-left: -15px
@@ -4146,7 +4140,7 @@ tbody.collapse.in {
 	margin-top: 4px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-toggle {
 		display: none
 	}
@@ -4162,7 +4156,7 @@ tbody.collapse.in {
 	line-height: 25px
 }
 
-@media (max-width:767px) {
+@media (max-width:1199px) {
 	.navbar-nav .open .dropdown-menu {
 		position: static;
 		float: none;
@@ -4185,7 +4179,7 @@ tbody.collapse.in {
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-nav {
 		float: left;
 		margin: 0
@@ -4208,7 +4202,7 @@ tbody.collapse.in {
 	box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .1), 0 1px 0 hsla(0, 0%, 100%, .1)
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-form .form-group {
 		display: inline-block;
 		margin-bottom: 0;
@@ -4259,7 +4253,7 @@ tbody.collapse.in {
 	}
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
 	.navbar-form .form-group {
 		margin-bottom: 5px
 	}
@@ -4268,7 +4262,7 @@ tbody.collapse.in {
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-form {
 		width: auto;
 		border: 0;
@@ -4317,7 +4311,7 @@ tbody.collapse.in {
 	margin-bottom: 12.5px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-text {
 		float: left;
 		margin-left: 15px;
@@ -4325,7 +4319,7 @@ tbody.collapse.in {
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
 	.navbar-left {
 		float: left!important
 	}
@@ -4403,7 +4397,7 @@ tbody.collapse.in {
 	color: #555
 }
 
-@media (max-width:767px) {
+@media (max-width:1199px) {
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
 		color: #777
 	}
@@ -4515,7 +4509,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 	color: #fff
 }
 
-@media (max-width:767px) {
+@media (max-width:1199px) {
 	.navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
 		border-color: #090909
 	}
