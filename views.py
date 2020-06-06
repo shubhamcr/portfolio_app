@@ -1,6 +1,6 @@
 from flask import render_template
 from .portfolio import app
-from portfolio import profile
+from . import profile
 
 
 @app.route('/')
