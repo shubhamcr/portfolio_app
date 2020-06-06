@@ -5776,8 +5776,12 @@ label {
     margin-bottom: 30px
 }
 
-.language-experience {
-    margin-bottom: 20px
+.skills {
+    margin-bottom: 30px
+}
+
+.skills > button {
+    width: 100%
 }
 
 .img-outside-work {
@@ -5785,5 +5789,3 @@ label {
     height: 1600px;
     max-height: 1600px;
 }
-
-/*# sourceMappingURL=main.bc58148c.map*/

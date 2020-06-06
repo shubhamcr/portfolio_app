@@ -217,90 +217,13 @@
           <div class="card-block">
             <h2>Skills</h2>
             <div class="row">
+            {% for skill in skills %}
               <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">C++</button>
+                <div class="skills">
+                  <button class="btn btn-success">{{ skill }}</button>
                 </div>
               </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Python</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Java</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Flask</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Qt</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Spring</button>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Angular</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Html</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">CSS</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Bootstrap</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Sql</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">pytest</button>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Data Structures</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Algorithms</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Machine Learning</button>
-                </div>
-              </div>
-              <div class="col-md-2 col-xs-6">
-                <div class="language-experience">
-                  <button class="btn btn-success">Git</button>
-                </div>
-              </div>
+            {% endfor %}
             </div>
           </div>
         </div>
