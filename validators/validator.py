@@ -18,7 +18,7 @@ class EmailValidator(Validator):
         super(EmailValidator, self).__init__(email)
 
     def validate(self):
-        return validate_email(email_address=self.field, check_regex=True, check_mx=True,
+        return validate_email(email_address=self.field.strip(), check_regex=True, check_mx=True,
                               from_address='sprasad3101@gmail.com', helo_host='gmail.com', smtp_timeout=10,
                               dns_timeout=10, use_blacklist=True)
 
