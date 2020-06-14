@@ -7,7 +7,7 @@ from .validators.validator import EmailValidator, TextValidator, validate
 
 @app.route('/')
 def index():
-    return render_template('index.html', skills = profile.get_skills())
+    return render_template('index.html', skills=profile.get_skills(), outside_work_images=profile.outside_work_images())
 
 
 @app.route("/contact", methods=["POST"])
