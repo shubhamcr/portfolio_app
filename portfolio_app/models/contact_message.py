@@ -1,4 +1,4 @@
-from .. import db
+from portfolio_app import db
 from sqlalchemy import func
 
 

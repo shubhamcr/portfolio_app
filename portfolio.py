@@ -1,5 +1,5 @@
-from . import create_app, db
-from .models import contact_message
+from portfolio_app import create_app, db
+from portfolio_app.models import contact_message
 
 app = create_app()
 

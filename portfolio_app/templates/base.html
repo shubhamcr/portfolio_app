@@ -32,18 +32,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{url_for('index')}}">Shubham Singh</a>
+            <a class="navbar-brand" href="{{url_for('main.index')}}">Shubham Singh</a>
         </div>
         <div class="collapse navbar-collapse" id="nav-bar-id">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work-ex">Work</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills-section">Skills</a></li>
-                <li><a href="#competitive-coding">Competitive Coding</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-                <li><a href="#outside-work">Outside Work</a></li>
+                <li><a href="{{url_for('main.index', _anchor='about-me')}}">About Me</a></li>
+                <li><a href="{{url_for('main.index', _anchor='work-ex')}}">Work</a></li>
+                <li><a href="{{url_for('main.index', _anchor='projects')}}">Projects</a></li>
+                <li><a href="{{url_for('main.index', _anchor='education')}}">Education</a></li>
+                <li><a href="{{url_for('main.index', _anchor='skills-section')}}">Skills</a></li>
+                <li><a href="{{url_for('main.index', _anchor='competitive-coding')}}">Competitive Coding</a></li>
+                <li><a href="{{url_for('main.index', _anchor='contact-section')}}">Contact</a></li>
+                <li><a href="{{url_for('main.index', _anchor='outside-work')}}">Outside Work</a></li>
             </ul>
         </div>
     </div>

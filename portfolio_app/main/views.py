@@ -1,16 +1,16 @@
 from flask import render_template, request, redirect, flash, url_for
-from .portfolio import app
-from . import profile
-from .services import contact_service
-from .validators.validator import EmailValidator, TextValidator, validate
+from portfolio_app import profile
+from portfolio_app.main import bp
+from portfolio_app.services import contact_service
+from portfolio_app.validators.validator import EmailValidator, TextValidator, validate
 
 
-@app.route('/')
+@bp.route('/')
 def index():
     return render_template('index.html', skills=profile.get_skills(), outside_work_images=profile.outside_work_images())
 
 
-@app.route("/contact", methods=["POST"])
+@bp.route("/contact", methods=["POST"])
 def contact():
     email_id = (request.form['email_id']).strip()
     email_subject = (request.form['email_subject']).strip()
@@ -36,14 +36,14 @@ def contact():
         flash("Thank you for contacting me. I have received your message and "
               "will get back to you shortly.", "message")
 
-    return redirect(url_for("index", _anchor="contact-section"))
+    return redirect(url_for("main.index", _anchor="contact-section"))
 
 
-@app.errorhandler(404)
+@bp.app_errorhandler(404)
 def page_not_found(e):
     return render_template("404.html"), 404
 
 
-@app.errorhandler(500)
+@bp.app_errorhandler(500)
 def server_error(e):
     return render_template("500.html"), 500
