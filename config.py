@@ -13,5 +13,3 @@ class Config(object):
     MAIL_USE_SSL = True
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
-    ADMIN_MAIL = os.environ.get("ADMIN_MAIL")
-    MAIL_UUID = os.environ.get("MAIL_UUID")
