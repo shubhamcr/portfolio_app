@@ -357,19 +357,17 @@
                 <div class="card" id="outside-work">
                     <div class="card-block">
                         <h2>Outside work</h2>
-                        <div class="card-block">
-                            <div class="row">
-                                {% for image in outside_work_images %}
-                                <div class="col-md-12">
-                                    <img class="img-responsive img-outside-work" src={{image["img_url"]}}
-                                         alt={{image["img_alt"]}}>
-                                    <h3 class="h5">{{image["img_caption"]}}</h3>
-                                    {% if loop.index != loop.length %}
-                                    <br><br>
-                                    {% endif %}
-                                </div>
-                                {% endfor %}
+                        <div class="row">
+                            {% for image in outside_work_images %}
+                            <div class="col-xs-12">
+                                <img class="img-responsive img-outside-work" src={{image["img_url"]}}
+                                     alt={{image["img_alt"]}}>
+                                <h3 class="h5">{{image["img_caption"]}}</h3>
+                                {% if loop.index != loop.length %}
+                                <br><br>
+                                {% endif %}
                             </div>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
